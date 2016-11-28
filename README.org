@@ -1,0 +1,21 @@
+* eslint-config
+
+Personal eslint configurations
+
+- see: http://eslint.org/docs/developer-guide/shareable-configs
+
+Available configurations:
+- =es6/strict-module= /default/
+- =es6/strict-script=
+- =es6/recommended-module= es6 module with eslint recommended rules
+- =es6/recommended-script= es6 script with eslint recommended rules
+- =es6= alias of =es6/strict-module=
+- =es5/strict=
+- =es5/recommended= eslint recommended rules
+- =es5= alias of =es5/strict=
+
+** TODO export to npm
+** MAYBE node specific configuration
+** MAYBE ava/tape specific configuration
+** MAYBE configuration for common settings
+- standard / semistandard
