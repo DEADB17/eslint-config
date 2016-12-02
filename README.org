@@ -14,7 +14,6 @@ Available configurations:
 - =es5/recommended= eslint recommended rules
 - =es5= alias of =es5/strict=
 
-** TODO export to npm
 ** MAYBE node specific configuration
 ** MAYBE ava/tape specific configuration
 ** MAYBE configuration for common settings
