@@ -8,5 +8,8 @@
   "issues": "https://github.com/DEADB17/eslint-config/issues",
   "peerDependencies": {
     "eslint": ">= 3"
+  },
+  "scripts": {
+    "postversion": "git push && git push --tags"
   }
 }
