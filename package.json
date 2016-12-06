@@ -1,6 +1,6 @@
 {
   "name": "@deadb17/eslint-config",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-rc",
   "description": "Personal eslint configurations",
   "author": "DEADB17 <deadb17@gmail.com>",
   "license": "GPL-3.0",
