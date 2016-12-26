@@ -138,7 +138,7 @@
     "accessor-pairs": "error",
     "block-scoped-var": "error",
     "block-spacing": ["warn", "always"],
-    "brace-style": ["warn", "1tbs"],
+    "brace-style": ["warn", "1tbs", { "allowSingleLine": true }],
     "callback-return": ["error", ["callback", "cb", "next", "done"]],
     "camelcase": "warn",
     "capitalized-comments": "off",
