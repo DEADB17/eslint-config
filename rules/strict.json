@@ -55,7 +55,7 @@
     "no-lone-blocks": "error",
     "no-lonely-if": "error",
     "no-loop-func": "error",
-    "no-magic-numbers": ["error", { "enforceConst": true }],
+    "no-magic-numbers": ["error", { "enforceConst": true, "ignore": [0, 1] }],
     "no-mixed-operators": "error",
     "no-mixed-requires": ["warn", true],
     "no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
