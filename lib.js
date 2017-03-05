@@ -3,8 +3,8 @@
 const strict = require('./rules/strict.json');
 const recommended = require('./rules/eslint-recommended.json');
 
-const V5 = 5;
-const V6 = 6;
+const ES5 = 5;
+const ES6 = 6;
 const SCRIPT = 'script';
 const MODULE = 'module';
 
@@ -28,9 +28,9 @@ function setParserOptions(opts, ob) {
     return ob;
 }
 
-const es5 = setParserOptions.bind(null, makeParserOpts(V5, SCRIPT));
-const es6Script = setParserOptions.bind(null, makeParserOpts(V6, SCRIPT));
-const es6Module = setParserOptions.bind(null, makeParserOpts(V6, MODULE));
+const es5 = setParserOptions.bind(null, makeParserOpts(ES5, SCRIPT));
+const es6Script = setParserOptions.bind(null, makeParserOpts(ES6, SCRIPT));
+const es6Module = setParserOptions.bind(null, makeParserOpts(ES6, MODULE));
 
 module.exports = {
     strict,
