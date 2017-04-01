@@ -1,5 +1,6 @@
 /*eslint-env commonjs*/
 
-const { recommended: conf, es5 } = require('../lib');
+const recommended = require('../rules/eslint-recommended');
+const { es5 } = require('../lib');
 
-module.exports = es5(conf);
+module.exports = es5(recommended);

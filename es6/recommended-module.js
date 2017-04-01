@@ -1,5 +1,6 @@
 /*eslint-env commonjs*/
 
-const { recommended: conf, es6Module } = require('../lib');
+const recommended = require('../rules/eslint-recommended');
+const { es6Module } = require('../lib');
 
-module.exports = es6Module(conf);
+module.exports = es6Module(recommended);

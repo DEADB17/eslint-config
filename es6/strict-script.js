@@ -1,5 +1,6 @@
 /*eslint-env commonjs*/
 
-const { strict: conf, es6Script } = require('../lib');
+const strict = require('../rules/strict');
+const { es6Script } = require('../lib');
 
-module.exports = es6Script(conf);
+module.exports = es6Script(strict);
