@@ -7,7 +7,7 @@
   "repository": "https://github.com/DEADB17/eslint-config",
   "issues": "https://github.com/DEADB17/eslint-config/issues",
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": "^3.18"
   },
   "scripts": {
     "postversion": "git push && git push --tags"
