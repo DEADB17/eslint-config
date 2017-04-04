@@ -14,7 +14,7 @@
     "camelcase": "warn",
     "capitalized-comments": "off",
     "class-methods-use-this": "warn",
-    "comma-dangle": ["warn", "always-multiline"],
+    "comma-dangle": ["warn", "only-multiline"],
     "comma-spacing": "warn",
     "comma-style": "warn",
     "complexity": "warn",
