@@ -1,0 +1,11 @@
+{
+  "env": {
+    "node": true
+  },
+  "extends": "../es5/strict.js",
+  "rules": {
+    "max-lines": "off",
+    "no-magic-numbers": "off",
+    "quotes": ["error", "double"]
+  }
+}

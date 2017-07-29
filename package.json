@@ -6,10 +6,17 @@
   "license": "GPL-3.0",
   "repository": "https://github.com/DEADB17/eslint-config",
   "issues": "https://github.com/DEADB17/eslint-config/issues",
+  "devDependencies": {
+    "eslint": "^4.3.0"
+  },
   "peerDependencies": {
-    "eslint": "^3.18"
+    "eslint": "^4.3.0"
+  },
+  "eslintConfig": {
+    "extends": "./index.js"
   },
   "scripts": {
+    "preversion": "eslint index.js lib.js conf/*.js es6/*.js es5/*.js",
     "postversion": "git push && git push --tags"
   }
 }
