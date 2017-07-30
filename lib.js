@@ -41,4 +41,10 @@ module.exports = {
             'extends': 'plugin:node/recommended',
         };
     },
+    import() {
+        return {
+            plugins: ['import'],
+            'extends': 'plugin:import/recommended',
+        };
+    },
 };
