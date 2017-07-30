@@ -4,12 +4,46 @@ Personal eslint configurations
 
 - see: http://eslint.org/docs/developer-guide/shareable-configs
 
-Available configurations:
-- ~es6/strict~ /default/
-- ~es6/recommended~
-- ~esnext/recommended~
-- ~esnext/strict~
-- ~es5/strict~
-- ~es5/recommended~
+** Available configurations
+*** To combine:
+- ~es5~ or ~es6~ or ~esnext~
+- ~strict~
 - ~node~
 - ~import~
+
+*** Default:
+- ~es6-strict-import~
+
+*** Examples
+The default configuration:
+#+begin_src json
+  {
+    "eslintConfig": {
+      "extends": "@deadb17/eslint-config"
+    }
+  }
+#+end_src
+
+ES5, strict, node:
+#+begin_src json
+  {
+    "eslintConfig": {
+      "extends": [
+        "@deadb17/eslint-config/es5",
+        "@deadb17/eslint-config/strict",
+        "@deadb17/eslint-config/node"
+      ]
+    }
+  }
+#+end_src
+
+ES-NEXT, using eslint recommended rules:
+#+begin_src json
+  {
+    "eslintConfig": {
+      "extends": [
+        "@deadb17/eslint-config/esnext"
+      ]
+    }
+  }
+#+end_src

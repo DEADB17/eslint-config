@@ -1,1 +1,1 @@
-module.exports = require('./lib').es6Strict();
+module.exports = require('./lib').es6StrictImport();

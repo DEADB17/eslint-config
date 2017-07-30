@@ -1,5 +1,5 @@
 {
-  "extends": ["../es5/strict.js", "../node.js"],
+  "extends": ["../es5.js", "../node.js"],
   "rules": {
     "max-lines": "off",
     "no-magic-numbers": "off",
