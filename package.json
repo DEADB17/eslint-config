@@ -13,10 +13,13 @@
     "eslint": "^4.3.0"
   },
   "eslintConfig": {
+    "env": {
+      "node": true
+    },
     "extends": "./index.js"
   },
   "scripts": {
-    "preversion": "eslint index.js lib.js conf/*.js es6/*.js es5/*.js",
+    "preversion": "eslint index.js lib.js conf/*.js es5/*.js es6/*.js esnext/*.js",
     "postversion": "git push && git push --tags"
   }
 }

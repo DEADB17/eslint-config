@@ -1,6 +1,1 @@
-/*eslint-env commonjs*/
-
-const strict = require('../conf/strict');
-const { es5 } = require('../lib');
-
-module.exports = es5(strict);
+module.exports = require('../lib').es5Strict();
