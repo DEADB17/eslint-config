@@ -6,6 +6,12 @@
   "license": "GPL-3.0",
   "repository": "https://github.com/DEADB17/eslint-config",
   "issues": "https://github.com/DEADB17/eslint-config/issues",
+  "engines": {
+    "node": ">=6.11.0"
+  },
+  "dependencies": {
+    "eslint-plugin-node": "^5.1.1"
+  },
   "devDependencies": {
     "eslint": "^4.3.0"
   },
@@ -13,13 +19,13 @@
     "eslint": "^4.3.0"
   },
   "eslintConfig": {
-    "env": {
-      "node": true
-    },
-    "extends": "./index.js"
+    "extends": [
+      "./es6/strict.js",
+      "./node.js"
+    ]
   },
   "scripts": {
-    "preversion": "eslint index.js lib.js conf/*.js es5/*.js es6/*.js esnext/*.js",
+    "preversion": "eslint *.js conf/*.js es5/*.js es6/*.js esnext/*.js",
     "postversion": "git push && git push --tags"
   }
 }

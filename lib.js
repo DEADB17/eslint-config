@@ -34,4 +34,11 @@ module.exports = {
     es6Strict() { return strict(ES6); },
     esnextRecommended() { return reco(ESNEXT); },
     esnextStrict() { return strict(ESNEXT); },
+    node() {
+        return {
+            env: {node: true},
+            plugins: ['node'],
+            'extends': 'plugin:node/recommended',
+        };
+    },
 };
