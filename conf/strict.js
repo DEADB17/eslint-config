@@ -6,12 +6,10 @@
 
 "use strict";
 
-/* eslint sort-keys: ["error", "asc"], quote-props: ["error", "consistent"] */
-/* eslint-disable sort-keys */
+/* eslint sort-keys: ["error", "asc"] */
 
-module.exports = Object.freeze({
-
-    /* eslint-enable sort-keys */
+module.exports = {
+  rules: {
     "accessor-pairs": "error",
     "array-bracket-newline": ["error", { "multiline": true }],
     "array-bracket-spacing": "off",
@@ -64,6 +62,8 @@ module.exports = Object.freeze({
     "linebreak-style": ["warn", "unix"],
     "lines-around-comment": "off",
     "lines-around-directive": "off",
+    "lines-between-class-members": "off",
+    "max-classes-per-file": "off",
     "max-depth": ["warn", 4],
     "max-len": ["warn", {"code": 120, "ignoreUrls": true, "tabWidth": 4 }],
     "max-lines": ["warn", {"max": 240, "skipBlankLines": true, "skipComments": true }],
@@ -227,6 +227,7 @@ module.exports = Object.freeze({
     "prefer-const": "warn",
     "prefer-destructuring": "off",
     "prefer-numeric-literals": "warn",
+    "prefer-object-spread": "off",
     "prefer-promise-reject-errors": "error",
     "prefer-reflect": "off",
     "prefer-rest-params": "warn",
@@ -265,4 +266,5 @@ module.exports = Object.freeze({
     "wrap-regex": "off",
     "yield-star-spacing": "off",
     "yoda": "off"
-});
+  }
+};
