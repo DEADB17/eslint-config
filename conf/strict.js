@@ -239,7 +239,7 @@ module.exports = Object.freeze({
     "require-jsdoc": "off",
     "require-yield": "error",
     "rest-spread-spacing": "off",
-    "semi": "error",
+    "semi": ["error", "always"],
     "semi-spacing": ["error", { "after": true, "before": false }],
     "semi-style": "off",
     "sort-imports": "off",
