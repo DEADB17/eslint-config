@@ -6,7 +6,7 @@
 
 "use strict";
 
-/* eslint sort-keys: ["error", "asc"] */
+/* eslint sort-keys: ["error", "asc"], quote-props: ["error", "always"] */
 
 module.exports = {
     "accessor-pairs": "error",
