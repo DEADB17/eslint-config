@@ -4,6 +4,9 @@
  * @author DEADB17
  */
 
+// From: https://github.com/eslint/eslint/blob/master/lib/rules/index.js
+// https://github.com/eslint/eslint/blob/c90a12c283698befcafd2c86f8bd8942428fe80b/lib/rules/index.js
+
 "use strict";
 
 /* eslint sort-keys: ["error", "asc"], quote-props: ["error", "always"] */
