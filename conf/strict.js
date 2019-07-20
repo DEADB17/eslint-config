@@ -9,7 +9,6 @@
 /* eslint sort-keys: ["error", "asc"] */
 
 module.exports = {
-  rules: {
     "accessor-pairs": "error",
     "array-bracket-newline": ["error", { "multiline": true }],
     "array-bracket-spacing": "off",
@@ -266,5 +265,4 @@ module.exports = {
     "wrap-regex": "off",
     "yield-star-spacing": "off",
     "yoda": "off"
-  }
 };
