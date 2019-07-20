@@ -9,7 +9,7 @@
 
 "use strict";
 
-/* eslint sort-keys: ["error", "asc"], quote-props: ["error", "always"] */
+/* eslint sort-keys: ["error", "asc"], quote-props: ["error", "always"], indent: ["error", 4] */
 
 module.exports = {
     "accessor-pairs": "error",
@@ -54,8 +54,8 @@ module.exports = {
     "id-blacklist": "off",
     "id-length": "off",
     "id-match": "off",
-    "indent": "off",
-    "indent-legacy": ["warn", 4],
+    "indent": ["warn", 2],
+    "indent-legacy": ["off", 2],
     "init-declarations": "off",
     "jsx-quotes": "off",
     "key-spacing": ["warn", { "afterColon": true, "beforeColon": false }],
